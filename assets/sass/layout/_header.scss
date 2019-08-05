@@ -1,0 +1,15 @@
+.header {
+  height: 500px;
+  background: $jellybean;
+  //se ponen juntas para centrar
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //se ponen juntas para centrar
+  &__text {
+    text-align: center;
+    color: $white;
+    font-weight: $extralight;
+    font-size: $large;
+  }
+}

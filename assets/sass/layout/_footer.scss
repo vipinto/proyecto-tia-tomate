@@ -1,0 +1,9 @@
+.footer {
+  background: $granitegray;
+  text-align: center;
+  &__img {
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}

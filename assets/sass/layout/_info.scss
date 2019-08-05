@@ -1,0 +1,57 @@
+.info-uno {
+  background: $quicksilver;
+  text-align: center;
+  &__img {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  &__textos {
+    width: 700px;
+    margin: 0 auto;
+  }
+  &__text {
+    color: $white;
+
+    text-align: center;
+    font-size: $medium;
+    font-weight: $bold;
+  }
+  &__parrafo {
+
+    text-align: justify;
+    color: $white;
+    padding-bottom: 50px;
+  }
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.info-dos {
+  background: $white;
+  text-align: center;
+  &__img {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+  }
+  &__textos {
+    width: 700px;
+    margin: 0 auto;
+  }
+  &__text {
+    color: $granitegray;
+    text-align: center;
+    font-size: $medium;
+    font-weight: $bold;
+  }
+  &__parrafo {
+
+    text-align: justify;
+    color: $taupegray;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav {
+  background: #FFF;
+}
+.nav__img {
+  width: 250px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.about {
+  height: 200px;
+  background: #E56353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__text {
+  color: #FFF;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.about-content {
+  background: #FFF;
+  text-align: center;
+}
+.about-content__img {
+  width: 30%;
+  text-align: center;
+  padding-top: 40px;
+}
+.about-content__textos {
+  width: 700px;
+  margin: 0 auto;
+}
+.about-content__text {
+  color: #686963;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.about-content__parrafo {
+  text-align: justify;
+  color: #91918D;
+  padding-bottom: 50px;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.info-uno {
+  background: #A0A0A0;
+  text-align: center;
+}
+.info-uno__img {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.info-uno__textos {
+  width: 700px;
+  margin: 0 auto;
+}
+.info-uno__text {
+  color: #FFF;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.info-uno__parrafo {
+  text-align: justify;
+  color: #FFF;
+  padding-bottom: 50px;
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.info-dos {
+  background: #FFF;
+  text-align: center;
+}
+.info-dos__img {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.info-dos__textos {
+  width: 700px;
+  margin: 0 auto;
+}
+.info-dos__text {
+  color: #686963;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 700;
+}
+.info-dos__parrafo {
+  text-align: justify;
+  color: #91918D;
+  padding-bottom: 50px;
+}
+
+.header {
+  height: 500px;
+  background: #E56353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__text {
+  text-align: center;
+  color: #FFF;
+  font-weight: 200;
+  font-size: 50px;
+}
+
+.footer {
+  background: #686963;
+  text-align: center;
+}
+.footer__img {
+  width: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form {
+  height: 250px;
+  background: #E56353;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__text {
+  text-align: center;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 21px;
+  position: relative;
+}
+.form__button {
+  border-radius: 25px;
+  background: #FFF;
+  width: 230px;
+  height: 40px;
+  color: #686963;
+  font-size: 21px;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=main.css.map */

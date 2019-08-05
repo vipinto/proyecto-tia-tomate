@@ -1,0 +1,45 @@
+.about {
+  height: 200px;
+  background: $jellybean;
+  //se ponen juntas para centrar
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //se ponen juntas para centrar
+  &__text {
+    color: $white;
+    font-weight: $extralight;
+    font-size: $large;
+  }
+}
+
+.about-content {
+  background: $white;
+  text-align: center;
+  &__img {
+    width: 30%;
+    text-align: center;
+    padding-top: 40px;
+  }
+  &__textos {
+    width: 700px;
+    margin: 0 auto;
+  }
+  &__text {
+    color: $granitegray;
+    text-align: center;
+    font-size: $medium;
+    font-weight: $bold;
+  }
+  &__parrafo {
+
+    text-align: justify;
+    color: $taupegray;
+    padding-bottom: 50px;
+  }
+}
+
+.container {
+  margin-left: 150px;
+  margin-right: 150px;
+}
